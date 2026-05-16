@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://blj5btrdpoyin"]
+
+[ext_resource type="Script" uid="uid://cxqyss0dmhnst" path="res://fonte.gd" id="1_80ff0"]
+[ext_resource type="Texture2D" uid="uid://dmo23gugo7vo0" path="res://craftpix-net-846754-free-green-zone-tileset-pixel-art/4 Animated objects/Fountain.png" id="1_dryq7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_80ff0"]
+size = Vector2(128, 184)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_31evc"]
+atlas = ExtResource("1_dryq7")
+region = Rect2(0, 0, 72, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lq6r"]
+atlas = ExtResource("1_dryq7")
+region = Rect2(72, 0, 72, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ldjg"]
+atlas = ExtResource("1_dryq7")
+region = Rect2(144, 0, 72, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qxvn"]
+atlas = ExtResource("1_dryq7")
+region = Rect2(216, 0, 72, 72)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pjnsq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31evc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lq6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ldjg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qxvn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="fonte" type="CharacterBody2D"]
+script = ExtResource("1_80ff0")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2, 15)
+shape = SubResource("RectangleShape2D_80ff0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_pjnsq")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
