@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://blj5btrdpoyin"]
+[gd_scene load_steps=10 format=3 uid="uid://blj5btrdpoyin"]
 
 [ext_resource type="Script" uid="uid://cxqyss0dmhnst" path="res://fonte.gd" id="1_80ff0"]
 [ext_resource type="Texture2D" uid="uid://dmo23gugo7vo0" path="res://craftpix-net-846754-free-green-zone-tileset-pixel-art/4 Animated objects/Fountain.png" id="1_dryq7"]
+[ext_resource type="Script" uid="uid://br27mk8t5v3dl" path="res://area_2d.gd" id="2_31evc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_80ff0"]
 size = Vector2(128, 184)
@@ -47,6 +48,7 @@ script = ExtResource("1_80ff0")
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 4
+script = ExtResource("2_31evc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(2, 15)
