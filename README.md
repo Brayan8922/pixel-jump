@@ -1,20 +1,20 @@
-# pixel-jump
+  # pixel-jump
 
 
-### descrição:
+  ### descrição:
 
 jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso de paralax layers.
 
 ---
 
-### Tecnologias:
+  ### Tecnologias:
 
 GDScript: Linguagem usada.
 Godot Engine: motor grafico.
 
 ---
 
-### Fotos:
+  ### Fotos:
 
 <img width="245" height="139" alt="image" src="https://github.com/user-attachments/assets/ee682dd0-ca59-4d08-979d-f1d927d042a7" />
 <img width="245" height="139" alt="image" src="https://github.com/user-attachments/assets/347fa2ea-1a31-4925-8fe8-23722e7681af" />
@@ -22,7 +22,7 @@ Godot Engine: motor grafico.
 
 ---
 
-### O que eu aprendi:
+  ### O que eu aprendi:
 
 * movimentação basica: pulos, pulos duplos e movimentos fluidos.
 * Uso de paralax: background dinâmico.
