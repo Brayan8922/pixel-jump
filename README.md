@@ -1,17 +1,15 @@
-  # pixel-jump
+# pixel-jump
 
+### Descrição:
 
-### descrição:
-
-jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso de paralax layers.
+Jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso de parallax layers.
 
 ---
 
 ### Tecnologias:
-  
-**GDScript:** Linguagem usada.
 
-**Godot Engine:** motor de jogo utilizado.
+* **GDScript:** Linguagem usada.
+* **Godot Engine:** Motor de jogo utilizado.
 
 ---
 
@@ -25,7 +23,7 @@ jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso
 
 ### O que eu aprendi:
 
-* **Movimentação basica:** pulos, pulos duplos e movimentos fluidos.
-* **Uso de paralax:** background dinâmico.
-* **Câmera fluida:** câmera que segue o jogador de forma fluida.
-* **Final de fase:** ponto que faz o jogador ir para a próxima fase.
+* **Movimentação básica:** Pulos, pulos duplos e movimentos fluidos.
+* **Uso de parallax:** Background dinâmico.
+* **Câmera fluida:** Câmera que segue o jogador de forma fluida.
+* **Final de fase:** Ponto que faz o jogador ir para a próxima fase.
