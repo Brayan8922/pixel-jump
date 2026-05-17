@@ -9,8 +9,8 @@ jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso
 
 ### Tecnologias:
   
-GDScript: Linguagem usada.
-Godot Engine: motor grafico.
+**GDScript:** Linguagem usada.
+**Godot Engine:** motor de jogo utilizado.
 
 ---
 
