@@ -13,7 +13,7 @@ Jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso
 
 ---
 
-### Fotos:
+### Capturas de tela:
 
 <img width="245" height="139" alt="image" src="https://github.com/user-attachments/assets/ee682dd0-ca59-4d08-979d-f1d927d042a7" />
 <img width="245" height="139" alt="image" src="https://github.com/user-attachments/assets/347fa2ea-1a31-4925-8fe8-23722e7681af" />
@@ -23,7 +23,15 @@ Jogo de plataforma com foco no aprendizado de mecânicas de movimentação e uso
 
 ### O que eu aprendi:
 
-* **Movimentação básica:** Pulos, pulos duplos e movimentos fluidos.
-* **Uso de parallax:** Background dinâmico.
-* **Câmera fluida:** Câmera que segue o jogador de forma fluida.
-* **Final de fase:** Ponto que faz o jogador ir para a próxima fase.
+* Implementação de movimentação 2D
+* Sistema de pulo duplo
+* Uso de ParallaxLayer para profundidade visual
+* Controle de câmera fluida
+* Sistema básico de troca de fases
+  
+---
+
+### Controles
+
+* **A / D** — movimentação.
+* **Espaço** — pulo / pulo duplo.
